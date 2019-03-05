@@ -1,0 +1,31 @@
+{
+  "name": "NodeTemplateKoa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kongyajie/NodeTemplateKoa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kongyajie/NodeTemplateKoa/issues"
+  },
+  "homepage": "https://github.com/kongyajie/NodeTemplateKoa#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "mysql2": "^1.6.5",
+    "sqlstring": "^2.3.1"
+  }
+}
